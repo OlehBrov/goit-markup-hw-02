@@ -5,7 +5,50 @@ font-family: 'Reenie Beanie', cursive;
 font-family: 'Roboto', sans-serif; */
 body {
     font-family: "Roboto", sans-serif;
-    
+    color: #212121;
     background-color: #F5F5F5;
 }
 
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-link {
+    color: #212121;
+    font-size: 14px;
+}
+.nav-link:hover,
+.nav-link:focus,
+.nav-link.active {
+color: #2196F3;
+}
+
+.hero-header {
+    /* color: #FFFFFF; */
+    font-weight: 900;
+    font-size: 44px;
+}
+.page-link {
+    font-size: 14px;
+}
+.booking-btn {
+    font-weight: 700;
+    font-size: 16px;
+    background-color: #2196F3;
+}
+
+
+.advantages-list h3 {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.advantages-list li {
+    font-weight: 400;
+    font-size: 14px;
+    color: #757575;
+}

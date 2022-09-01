@@ -18,9 +18,13 @@
       <a href="./index.html"><span>Web</span>Studio</a>
       <nav>
         <ul>
-          <li><a href="./index.html">Студія</a></li>
-          <li><a href="./portfolio.html">Портфоліо</a></li>
-          <li><a href="#">Контакти</a></li>
+          <li><a href="./index.html" class="link nav-link">Студія</a></li>
+          <li>
+            <a href="./portfolio.html" class="link nav-link active"
+              >Портфоліо</a
+            >
+          </li>
+          <li><a href="#" class="link nav-link">Контакти</a></li>
         </ul>
       </nav>
       <ul>
@@ -30,8 +34,7 @@
     </header>
 
     <main>
-      <section>
-        <h2>Наші роботи</h2>
+      <nav class="main-nav">
         <ul class="filter">
           <li><button type="button" class="filter-btn">Усі</button></li>
           <li><button type="button" class="filter-btn">Веб-сайти</button></li>
@@ -39,7 +42,10 @@
           <li><button type="button" class="filter-btn">Дизайн</button></li>
           <li><button type="button" class="filter-btn">Маркетинг</button></li>
         </ul>
+      </nav>
 
+      <section>
+        <h2>Наші роботи</h2>
         <ul class="products">
           <li>
             <img
@@ -47,7 +53,7 @@
               alt="Приклад веб-сайту на моніторі ноутбука"
               widht="370;"
             />
-            <h2>Технокряк</h2>
+            <h3>Технокряк</h3>
             <p>Веб-сайт</p>
           </li>
           <li>
@@ -56,7 +62,7 @@
               alt="Два баскетболіста з мячем"
               widht="370;"
             />
-            <h2>Постер New Orlean vs Golden Star</h2>
+            <h3>Постер New Orlean vs Golden Star</h3>
             <p>Дизайн</p>
           </li>
           <li>
@@ -65,7 +71,7 @@
               alt="Риба - логотип ресторана морської кухні"
               widht="370;"
             />
-            <h2>Ресторан Seafood</h2>
+            <h3>Ресторан Seafood</h3>
             <p>Додаток</p>
           </li>
           <li>
@@ -74,7 +80,7 @@
               alt="Чорні навушники"
               widht="370;"
             />
-            <h2>Проєкт Prime</h2>
+            <h3>Проєкт Prime</h3>
             <p>Маркетинг</p>
           </li>
           <li>
@@ -83,7 +89,7 @@
               alt="Дві картонні коробки бежевого і білого кольору"
               widht="370;"
             />
-            <h2>Проєкт Boxes</h2>
+            <h3>Проєкт Boxes</h3>
             <p>Додаток</p>
           </li>
           <li>
@@ -92,7 +98,7 @@
               alt="Екран монітора з прикладом програми"
               widht="370;"
             />
-            <h2>Inspiration has no Borders</h2>
+            <h3>Inspiration has no Borders</h3>
             <p>Веб-сайт</p>
           </li>
           <li>
@@ -101,12 +107,12 @@
               alt="Розворот журналу"
               widht="370;"
             />
-            <h2>Видання Limited Edition</h2>
+            <h3>Видання Limited Edition</h3>
             <p>Дизайн</p>
           </li>
           <li>
             <img src="./images/project-lab.jpg" alt="Етикетка" widht="370;" />
-            <h2>Проєкт LAB</h2>
+            <h3>Проєкт LAB</h3>
             <p>Маркетинг</p>
           </li>
           <li>
@@ -115,7 +121,7 @@
               alt="Людина працює за нотубуком"
               widht="370;"
             />
-            <h2>Growing Business</h2>
+            <h3>Growing Business</h3>
             <p>Додаток</p>
           </li>
         </ul>
@@ -127,12 +133,21 @@
       <address>
         <ul>
           <li>
-            <a href="https://goo.gl/maps/CVqLnx5TvELweERi6" target="_blank"
+            <a
+              href="https://goo.gl/maps/CVqLnx5TvELweERi6"
+              target="_blank"
+              class="link"
               >Київ, пр-т Лесі Українки, 26</a
             >
           </li>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+          <li>
+            <a href="mailto:info@devstudio.com" class="link"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
+          </li>
         </ul>
       </address>
     </footer>
