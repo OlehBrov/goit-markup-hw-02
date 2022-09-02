@@ -119,3 +119,6 @@ footer {
   color: var(--white-text);
   border: none;
 }
+.button {
+    cursor: pointer;
+}
