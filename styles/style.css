@@ -3,10 +3,19 @@
 font-family: 'Raleway', sans-serif;
 font-family: 'Reenie Beanie', cursive;
 font-family: 'Roboto', sans-serif; */
+:root {
+    --main-text-color: #212121;
+    --main-bgc: #F5F5F5;
+    --nav-color: #2196F3;
+    --advantages-paragraph: #757575;
+    --footer-bgc: #2F303A;
+    --contacts-color: #757575;
+}
+
 body {
     font-family: "Roboto", sans-serif;
-    color: #212121;
-    background-color: #F5F5F5;
+    color:var(--main-text-color);
+    background-color:var(--main-bgc);
 }
 
 ul {
@@ -16,15 +25,25 @@ ul {
 a {
     text-decoration: none;
 }
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    color: #000000;
+}
 
 .nav-link {
-    color: #212121;
+    color: var(--main-text-color);
     font-size: 14px;
 }
 .nav-link:hover,
 .nav-link:focus,
 .nav-link.active {
-color: #2196F3;
+color: var(--nav-color);
+}
+
+header .link:hover,
+header .link:focus {
+color: var(--nav-color);
 }
 
 .hero-header {
@@ -36,11 +55,13 @@ color: #2196F3;
     font-size: 14px;
 }
 .booking-btn {
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
-    background-color: #2196F3;
+    color: #FFFFFF;
+    background-color: var(--nav-color);
+    border: none;
 }
-
 
 .advantages-list h3 {
     font-weight: 700;
@@ -50,5 +71,41 @@ color: #2196F3;
 .advantages-list li {
     font-weight: 400;
     font-size: 14px;
-    color: #757575;
+    color: var(--advantages-paragraph);
+}
+
+.section-header {
+    font-size: 36px;
+    text-align: center;
+}
+.descr-header {
+    font-size: 16px;
+    font-weight: 500;
+}
+.descr {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--advantages-paragraph);
+}
+footer {
+    background-color: var(--footer-bgc);
+}
+.adress-link {
+    color: #FFFFFF;
+    font-style: normal;
+}
+.contact-link {
+    color: var(--contacts-color);
+    font-style: normal;
+}
+.filter-btn {
+    font-family: inherit;
+    font-size: 16px;
+    color: var(--main-text-color);
+}
+.filter-btn:hover,
+.filter-btn:focus {
+    background-color:var(--nav-color);
+    color:#ffffff;
+    border: none;
 }
