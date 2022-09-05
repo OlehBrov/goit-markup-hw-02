@@ -8,6 +8,7 @@
   --black: #000000;
   --team-section-style: #f5f4fa;
   --products-bgc: #f5f5f5;
+  --hero-bgc: #2F303A;
 }
 
 body {
@@ -56,6 +57,9 @@ header {
 .nav-link.active {
   color: var(--nav-color);
 }
+.hero-section {
+  background-color: var(--hero-bgc)
+}
 
 .hero-header {
   font-weight: 900;
@@ -64,7 +68,7 @@ header {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  /* color: var(--white-text); закоментовано, щоб було видно текст та білому фоні */
+  color: var(--white-text);
 }
 
 .booking-btn {
@@ -158,9 +162,6 @@ footer {
   cursor: pointer;
 }
 
-.products-section {
-  background-color: var(--products-bgc);
-}
 .product-title {
   font-size: 18px;
   font-weight: 700;
